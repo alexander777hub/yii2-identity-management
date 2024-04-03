@@ -42,3 +42,10 @@ review the [guidelines for contributing](.github/CONTRIBUTING.md).
 
 Yii2-user is released under the MIT License. See the bundled [LICENSE.md](LICENSE.md)
 for details.
+"extra": {
+"bootstrap": "alexander777hub\\user\\Bootstrap",
+"branch-alias": {
+"dev-master": "0.9.x-dev",
+"dev-develop": "1.0.x-dev"
+}
+} 

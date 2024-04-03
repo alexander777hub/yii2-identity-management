@@ -1,22 +1,18 @@
 {
-    "name": "dektrium/yii2-user",
+    "name": "alexander777hub/yii2-user",
     "description": "Flexible user registration and authentication module for Yii2",
-    "keywords": ["yii2", "yii2-user", "user management", "dektrium"],
+    "keywords": ["yii2", "yii2-user", "user management"],
     "type": "yii2-extension",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/dektrium/yii2-user/issues?state=open",
-        "forum": "https://gitter.im/dektrium/yii2-user",
-        "source": "https://github.com/dektrium/yii2-user"
-    },
+
     "authors": [
         {
-            "name": "Dmitry Erofeev",
-            "email": "dmeroff@gmail.com",
-            "homepage": "http://dmeroff.ru"
+            "name": "Alexander Pereselkov",
+            "email": "aleksandrpereselkov77@gmail.com",
+            "homepage": "alex.dmitxe.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "^2.0.13",
@@ -31,14 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "dektrium\\user\\": ""
+            "alexander777hub\\user\\": ""
         }
     },
     "extra": {
-        "bootstrap": "dektrium\\user\\Bootstrap",
-        "branch-alias": {
-            "dev-master": "0.9.x-dev",
-            "dev-develop": "1.0.x-dev"
-        }
+        "bootstrap": "alexander777hub\\user\\Bootstrap"
+
     }
+
 }
+
